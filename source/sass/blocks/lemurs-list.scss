@@ -1,0 +1,36 @@
+.lemurs-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	min-width: 320px;
+	min-height: 100px;
+
+	list-style: none;
+}
+
+.lemur-kind {
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid #fbfbfb;
+}
+
+.lemur-kind:last-child {
+	margin-right: 0px;
+}
+
+.lemurs-button {
+	padding: 5px 15px;
+	text-transform: uppercase;
+	background: #fefefe;
+	border: 1px solid black;
+	color: #323232;
+	border-radius: 5px;
+
+	cursor: pointer;
+}
+
+.lemurs-button:hover {
+	background: #323232;
+	color: #fefefe;
+}
